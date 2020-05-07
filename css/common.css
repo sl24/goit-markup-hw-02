@@ -5,6 +5,7 @@
 /* цвет копирайта rgba(255, 255, 255, 0.4);\    --copyright-color*/
 /* цвет акцента #2196F3 - logo, :hover, :focus\    --accent-color*/
 /* вторичный цвет фона #F5F4FA\    --second-bgc-color*/
+/* цвет фона футера  #2f303a\    --footer-bg-color*/
 
 :root {
   --primary-text-color: #757575;
@@ -14,11 +15,12 @@
   --copyright-color: rgba(255, 255, 255, 0.4);
   --accent-color: #2196f3;
   --second-bgc-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 body {
   background-color: #28a5a5;
-  color: var(-primary-text-color);
+  color: var(--primary-text-color);
 }
 /* Поменять цвет в боди на #ffffff!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -51,41 +53,15 @@ body {
   color: var(--accent-color);
 }
 
-/* Герой */
-
-.hero-title {
-  color: var(--title-text-white);
-}
-
-.button {
-  color: var(--title-text-white);
-}
-
-/* Секция */
-
-.section-title {
-  color: var(--title-text-color);
-}
-
-/* Преимущества */
-
-.feature-list .title {
-  color: var(--title-text-color);
-}
-
-/* Чем мы занимаемся */
-
-.section .title-white {
-  color: var(--title-text-white);
-}
-
-/* Наша команда */
-
-.our-team .title {
-  color: var(--title-text-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* Подвал */
+
+footer {
+  background-color: var(--footer-bg-color);
+}
 .logo-footer {
   color: var(--title-text-white);
 }

@@ -1,0 +1,33 @@
+/* Герой */
+
+.hero-title {
+  color: var(--title-text-white);
+}
+
+.button {
+  color: var(--title-text-white);
+}
+
+/* Секция */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Преимущества */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.section .title-white {
+  color: var(--title-text-white);
+}
+
+/* Наша команда */
+
+.our-team .title {
+  color: var(--title-text-color);
+}
