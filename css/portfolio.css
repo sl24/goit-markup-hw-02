@@ -1,3 +1,6 @@
 .portfolio .item-title {
   color: var(--title-text-color);
 }
+.portfolio .names {
+  color: var(--title-text-color);
+}
