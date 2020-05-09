@@ -19,14 +19,18 @@
 }
 
 body {
-  background-color: #28a5a5;
+  background-color: var(--title-text-white);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
-/* Поменять цвет в боди на #ffffff!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Временный цвет фона для того чтобы видеть абзацы с белым текстом!!!!!!!!!!!!!! */
+.temporary-bgc {
+  background-color: #afeeee;
+}
 
 .list {
   list-style: none;

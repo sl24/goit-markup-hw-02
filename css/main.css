@@ -28,25 +28,27 @@
   text-align: center;
 }
 
-/* Преимущества */
+/* Преимущества + Чем мы занимаемся */
 
-.feature-list .title {
-  color: var(--title-text-color);
+.feature-list .title,
+.section .title-white {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
+/* Преимущества */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
 /* Чем мы занимаемся */
 
 .section .title-white {
   color: var(--title-text-white);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-align: center;
-  text-transform: uppercase;
 }
 
 /* Наша команда */
