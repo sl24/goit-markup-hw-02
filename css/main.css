@@ -2,32 +2,63 @@
 
 .hero-title {
   color: var(--title-text-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.button {
+.hero-button {
   color: var(--title-text-white);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Секция */
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Преимущества */
 
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Чем мы занимаемся */
 
 .section .title-white {
   color: var(--title-text-white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Наша команда */
 
+.our-team .title,
+.our-team .people {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
 .our-team .title {
   color: var(--title-text-color);
+  font-weight: 500;
 }

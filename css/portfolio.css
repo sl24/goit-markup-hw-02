@@ -1,6 +1,19 @@
-.portfolio .item-title {
-  color: var(--title-text-color);
+/* Кнопка */
+button {
+  font-family: inherit;
 }
+
 .portfolio .names {
+  background-color: var(--second-bgc-color);
+}
+
+.portfolio .names:hover,
+.portfolio .names:focus {
+  background-color: var(--accent-color);
+  color: var(--title-text-white);
+}
+
+/* Примеры работ */
+.portfolio .item-title {
   color: var(--title-text-color);
 }

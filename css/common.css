@@ -21,6 +21,10 @@
 body {
   background-color: #28a5a5;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* Поменять цвет в боди на #ffffff!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -28,14 +32,32 @@ body {
   list-style: none;
 }
 
-/* Навигация шапки */
+.link {
+  text-decoration: none;
+}
+
+/* Логотип */
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-nav {
   color: var(--title-text-color);
+}
+
+/* Навигация шапки */
+
+.site-nav,
+.contacts-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -66,14 +88,25 @@ footer {
   color: var(--title-text-white);
 }
 
-.footer .link {
+.footer .address {
   color: var(--mail-address-footer);
+  font-style: normal;
 }
 
 .footer .title-white {
   color: var(--title-text-white);
+  font-style: normal;
+}
+
+.footer p.title-white {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .copyright {
   color: var(--copyright-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
